@@ -17,7 +17,8 @@
   },
   "scripts": {
     "start": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/server.ts",
-    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
+    "build": "tsc -p ."
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.2",
